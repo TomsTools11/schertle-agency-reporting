@@ -7,6 +7,7 @@ Static GOAL reporting site for Angela Schertle Agency, deployed on Vercel from t
 | `public/index.html` | `/` | Report hub |
 | `public/reports/ok-auto-campaign-configuration-2026-09-28.html` | `/reports/ok-auto-campaign-configuration-2026-09-28` | OK Auto configuration |
 | `public/reports/ok-home-campaign-configuration-2026-09-28.html` | `/reports/ok-home-campaign-configuration-2026-09-28` | OK Home configuration |
+| `public/reports/ok-home-risk-map-2026-10-08.html` | `/reports/ok-home-risk-map-2026-10-08` | Oklahoma home risk map |
 
 Everything under `public/` is served. `vercel.json` pins the output directory to `public`, enables clean URLs, and sends `noindex` headers. There is no build step: Framework Preset **Other**, no build or install command.
 
